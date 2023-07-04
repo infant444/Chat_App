@@ -15,6 +15,13 @@ import { ListContactComponent } from './Component/list-contact/list-contact.comp
 
 
 import { HttpClientModule } from '@angular/common/http';
+import { HomepageComponent } from './Component/homepage/homepage.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AboutComponent } from './Component/about/about.component';
+
+// import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +30,8 @@ import { HttpClientModule } from '@angular/common/http';
     ContactComponent,
     SearchComponent,
     ListContactComponent,
-
+    HomepageComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,7 +40,8 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     MatIconModule,
     HttpClientModule,
-
+    NgbModule,
+    // NgbModule,
 
   ],
   providers: [],

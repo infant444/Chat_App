@@ -1,9 +1,8 @@
 .container{
   width: 100%;
   height: 100%;
-  background: linear-gradient(56deg,rgba(0, 255, 115, 0.701),rgba(35, 164, 207, 0.592)), url(../../../assets/images/profile/OIUFKE0.jpg) no-repeat;
+  background: linear-gradient(56deg,rgba(0, 255, 115, 0.701),rgba(35, 164, 207, 0.592)), url(../../../assets/images/profile/download.png) no-repeat;
   background-size: cover;
-  margin: 1rem;
   padding: 1rem;
   border-radius: 2rem;
 }

@@ -1,0 +1,87 @@
+@font-face {
+  font-family:Romal ;
+  src: url(../../../assets/font/Bleeding_Cowboys.ttf);
+}
+@font-face {
+  font-family: cl;
+  src: url(../../../assets/font/ChickensLovers.ttf);
+}
+
+.main{
+width: 100%;
+height: auto;
+/* top: 0; */
+z-index: 0;
+position: relative;
+}
+
+.container{
+  width: 100%;
+  height: auto;
+
+
+}
+.main img{
+  /* position: absolute;
+  z-index: 0;
+  top: 0; */
+  width: 100%;
+}
+.con{
+  position: absolute;
+  width: 50%;
+  z-index: 2;
+  margin-top: 6rem;
+  margin-right: 2rem;
+  border-radius: 2rem;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.558);
+  padding: 1rem;
+}
+.x{
+  width: 100%;
+  padding: 2rem;
+}
+.x h1{
+  color: orange;
+  font-family: cl;
+  text-align: center;
+  font-size: 3rem;
+  text-transform:uppercase;
+
+}
+.x h2{
+  color: rgb(70, 220, 7);
+  font-family: Romal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.login{
+  width: 100%;
+}
+.login button{
+  font-size: 1.5rem;
+  font-family: cl;
+  padding: .5rem 1rem;
+  width: 100%;
+  text-transform:uppercase;
+  margin: 1rem auto;
+  background-color: orange;
+  color: greenyellow;
+  font-weight: 800;
+  letter-spacing: 5px;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.login button:hover{
+  background-color: greenyellow;
+  color: white;
+}
+.content{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
